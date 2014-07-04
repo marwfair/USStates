@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/details"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:layout_margin="5dp" >
+		        
+	<RelativeLayout 
+	    android:id="@+id/labels"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+		        
+		<TextView
+			android:id="@+id/capitalLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/black"
+			android:text="@string/capital" />
+			       
+		<TextView
+			android:id="@+id/abbreviationLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/capitalLabel"
+			android:textColor="@color/black"
+			android:text="@string/abbreviation" />
+			        
+		<TextView
+			android:id="@+id/populatedCityLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/abbreviationLabel"
+			android:textColor="@color/black"
+			android:text="@string/most_populated_city" />
+			       
+		<TextView
+			android:id="@+id/populationLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/populatedCityLabel"
+			android:textColor="@color/black"
+			android:text="@string/state_population" />
+			        
+		<TextView
+			android:id="@+id/squareMilesLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/populationLabel"
+			android:textColor="@color/black"
+			android:text="@string/square_miles" />
+			        
+		<TextView
+			android:id="@+id/timeZone1Label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/squareMilesLabel"
+			android:textColor="@color/black"
+			android:text="@string/time_zone_1" />
+			        
+		<TextView
+			android:id="@+id/timeZone2Label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/timeZone1Label"
+			android:textColor="@color/black"
+			android:text="@string/time_zone_2" />
+			        
+		<TextView
+			android:id="@+id/dstLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/timeZone2Label"
+			android:textColor="@color/black"
+			android:text="@string/dst" />
+			        
+	</RelativeLayout>
+		        
+		        
+	<RelativeLayout 
+		android:id="@+id/values"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/labels"
+		android:layout_marginLeft="5dp" >
+		    
+		<TextView
+			android:id="@+id/capital"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/black" />
+			      
+		<TextView
+			android:id="@+id/abbreviation"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/capital"
+			android:textColor="@color/black" />
+			        
+		<TextView
+			android:id="@+id/populatedCity"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/abbreviation"
+			android:textColor="@color/black" />
+			     
+		<TextView
+			android:id="@+id/population"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/populatedCity"
+			android:textColor="@color/black" />
+			        
+		<TextView
+			android:id="@+id/squareMiles"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/population"
+			android:textColor="@color/black" />
+			        
+		<TextView
+			android:id="@+id/timeZone1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/squareMiles"
+			android:textColor="@color/black" />
+			        
+		<TextView
+			android:id="@+id/timeZone2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/timeZone1"
+			android:textColor="@color/black" />
+			        
+		<TextView
+			android:id="@+id/dst"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/timeZone2"
+			android:textColor="@color/black" />
+			        
+	</RelativeLayout>
+</RelativeLayout>

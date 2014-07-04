@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">States</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Content Description -->
+    <string name="state_flag">State Flag Image</string>
+    
+    <!-- Text -->
+    <string name="begin_message">Select a state on the left for more information!</string>
+    <string name="uh_oh">Uh oh</string>
+    <string name="not_connected">It appears that you are not connected to the internet. Please try again!</string>
+    <string name="error_downloading">There was an error downloading the data. Please try again!</string>
+    <string name="retry">Retry</string>
+    <string name="capital">Capital</string>
+    <string name="abbreviation">Appreviation</string>
+    <string name="most_populated_city">Most Populated City</string>
+    <string name="state_population">State Population</string>
+    <string name="square_miles">Square Miles</string>
+    <string name="time_zone_1">Time Zone 1</string>
+    <string name="time_zone_2">Time Zone 2</string>
+    <string name="dst">Daylight Savings Time</string>
+    
+
+    <!-- Colors -->
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="white">#FFFFFF</color>
+    
+</resources>
